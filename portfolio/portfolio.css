@@ -1,0 +1,827 @@
+/* General reset and font styling */
+/* General reset and font styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #home {
+    background-color: #1d82e6; /* Light grey background color */
+    padding: 2rem; /* Add padding inside the section */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    margin-bottom: 2rem; /* Space below the section */
+}
+
+
+
+  /* Body styling */
+  body {
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    background-color: #6f5677; /* Optional: background color */
+    font-family: "Helvetica Neue", sans-serif; /* Optional: font */
+  }
+  
+  /* Centering container styling */
+  .center-container {
+    text-align: center; /* Center text horizontally */
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header and navigation styling */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main section styling */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h1, h2 {
+    color: #444;
+  }
+  
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Skills section styling */
+  #skills {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .skill {
+    flex: 1;
+    min-width: 200px;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Projects section styling */
+  #projects {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .project {
+    flex: 1;
+    min-width: 200px;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact section styling */
+  #contact {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  form button:hover {
+    background: #0056b3;
+  }
+  
+  /* Footer styling */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  /* General reset and font styling */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center; /* Center text inside header */
+}
+
+.center-container {
+  margin-bottom: 1rem; /* Space between heading and nav */
+}
+
+.center-container h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Navigation styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main section styling */
+main {
+  padding: 2rem;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
+  color: #444;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* About section styling */
+#about p {
+  font-size: 1.1rem;
+}
+
+/* Skills section styling */
+#skills {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills ul li {
+  margin-bottom: 0.5rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+/* Projects section styling */
+#projects {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+#projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contact section styling */
+#contact {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Footer styling */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* General reset and font styling */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center; /* Center text inside header */
+}
+
+.center-container {
+  margin-bottom: 1rem; /* Space between heading and nav */
+}
+
+.center-container h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #333;
+  background-color: #787b53; /* Background color behind the text */
+  display: inline; /* Ensure background color only spans the text */
+  padding: 0.5rem; /* Optional: Add padding to make the background color more prominent */
+  border-radius: 5px; /* Optional: Add rounded corners to the background */
+}
+
+/* Navigation styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main section styling */
+main {
+  flex: 1; /* Allow main content to grow and take available space */
+  padding: 2rem;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Specific section colors */
+#home {
+  background-color: #e0f7fa; /* Light cyan */
+}
+
+#about {
+  background-color: #ffe0b2; /* Light orange */
+}
+
+#skills {
+  background-color: #c8e6c9; /* Light green */
+}
+
+#projects {
+  background-color: #f0f4c3; /* Light yellow */
+}
+
+#contact {
+  background-color: #d1c4e9; /* Light purple */
+}
+
+/* Text color for section headers */
+h1, h2 {
+  color: #444;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* About section styling */
+#about p {
+  font-size: 1.1rem;
+}
+
+/* Skills section styling */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills ul li {
+  margin-bottom: 0.5rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+/* Projects section styling */
+#projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contact section styling */
+form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Footer styling */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+#add-project-form {
+  margin-top: 1rem;
+}
+
+#add-project-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#add-project-form input, 
+#add-project-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#add-project-form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+/* Style for the Add Project button */
+#add-project {
+  background-color: #007bff; /* Blue color */
+  color: #fff; /* White text */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#add-project:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+#add-project-form button:hover {
+  background: #0056b3;
+}
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    background: #f0f4f8;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.skill h3 {
+    margin-bottom: 0.5rem;
+}
+
+.skill p {
+    margin: 0;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-box {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: calc(33.333% - 1rem); /* Adjust width as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.skill-box h3 {
+  margin-top: 0;
+}
+
+.skill-box p {
+  margin: 0;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #8f9dad;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background: #5f6871;
+}
+
+#add-skill-form button {
+  background: #92ad98; /* Green background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 0.75rem 1.5rem; /* Adjust padding as needed */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#add-skill-form button:hover {
+  background: #218838; /* Darker green on hover */
+}
+
+
+.project-box h3 {
+  margin-top: 0;
+}
+
+.project-box p {
+  margin: 0;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+#contact {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px; /* Adjust the max width as needed */
+  margin: 0 auto; /* Center the section horizontally */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Make inputs take up the full width of the form */
+}
+
+form textarea {
+  resize: vertical; /* Allow vertical resizing only */
+  min-height: 100px; /* Set a minimum height for the textarea */
+}
+
+form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%; /* Make button take up the full width of the form */
+}
+
+form button:hover {
+  background: #9baec2;
+}
+#contact {
+  background: #d7adad;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px; /* Adjust the max width as needed */
+  margin-left: 0; /* Align to the left */
+  margin-right: auto; /* Allow for automatic margin on the right to center content */
+  margin-top: 2rem; /* Add top margin for spacing */
+  margin-bottom: 2rem; /* Add bottom margin for spacing */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Make inputs take up the full width of the form */
+}
+
+form textarea {
+  resize: vertical; /* Allow vertical resizing only */
+  min-height: 100px; /* Set a minimum height for the textarea */
+}
+
+form button {
+  background: #6f5f70;
+  color: #1a1515;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%; /* Make button take up the full width of the form */
+}
+
+form button:hover {
+  background: #15b300;
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-box {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: calc(33.333% - 1rem); /* Adjust width as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}

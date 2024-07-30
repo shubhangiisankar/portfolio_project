@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="center-container">
+        <h1>SHUBHANGI ISANKAR</h1>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1 style="background-color: #b9aa76; color: #333; padding: 10px; border-radius: 5px;">
+                Welcome to My Portfolio</h1>
+            <p style="background-color: #a28ca3; color: #333; padding: 10px; border-radius: 5px;">Hello! I'm Shubhangi Isankar.</p>
+            <p style="background-color: #a28ca3; color: #333; padding: 10px; border-radius: 5px;">I am currently based in [Your Current Address]. If you want to know more about my background and experiences, feel free to explore the rest of my portfolio.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>As an engineer with a passion for technology and innovation, I specialize in developing scalable and efficient software solutions. My expertise spans across various domains, including machine learning, data analytics, and cloud computing. I have a proven track record of leveraging cutting-edge technologies to solve complex problems and drive business growth. I thrive in collaborative environments where I can contribute my technical skills and continuously learn from others.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container" id="skills-list">
+                <!-- Existing skills will go here -->
+                <div class="skill-box">
+                    <h3>Front-End Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Back-End Development</h3>
+                    <p>Node.js, Express, Python, Django</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Database Management</h3>
+                    <p>MySQL, MongoDB, PostgreSQL</p>
+                </div>
+            </div>
+            <form id="add-skill-form">
+                <label for="new-skill-name">Skill Name:</label>
+                <input type="text" id="new-skill-name" name="new-skill-name" placeholder="Skill Name" required>
+                <label for="new-skill-details">Skill Details:</label>
+                <input type="text" id="new-skill-details" name="new-skill-details" placeholder="Skill Details" required>
+               <button type="submit" style="background-color: #6f7c89; color: #121313;">Add Skill</button>
+
+            </form>
+    
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container" id="projects-list">
+                <!-- Existing projects will go here -->
+                <div class="project-box">
+                    <h3>Project One</h3>
+                    <p>Description of project one. Technologies used: HTML, CSS, JavaScript.</p>
+                </div>
+                <div class="project-box">
+                    <h3>Project Two</h3>
+                    <p>Description of project two. Technologies used: React, Node.js.</p>
+                </div>
+            </div>
+            <form id="add-project-form">
+                <label for="new-project-name">Project Name:</label>
+                <input type="text" id="new-project-name" name="new-project-name" placeholder="Project Name" required>
+                <label for="new-project-description">Project Description:</label>
+                <textarea id="new-project-description" name="new-project-description" placeholder="Project Description" required></textarea>
+               <button id="add-project" style="background-color: #83a1c2; color: #191414;">Add New Project</button>
+
+            </form>
+        </section>
+        
+        
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <!--<footer>
+        <p>&copy; 2024 Shubhangi Isankar. All rights reserved.</p>
+    </footer> -->
+
+    <script src="portfolio.js"></script>
+    <footer>
+        <p>&copy; 2024 Shubhangi Isankar. All rights reserved.</p>
+    </footer>
+    
+</body>
+
+
+</html>
